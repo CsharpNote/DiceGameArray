@@ -11,7 +11,7 @@ I konstruktoren skal du instantierer terningerne. fx. to med seks sider og tre m
 Commit!
 
 Opgave 2:
-Ret nu metoden RollAllDiceIncup til så den ruller alle fem terninger.
+Ret nu metoden RollAllDiceInCup til så den ruller alle fem terninger.
 Ret nu metoden GetTotalValue til så den viser værdien af alle fem terninger.
 prøv de nye metoder af.
 Commit!
