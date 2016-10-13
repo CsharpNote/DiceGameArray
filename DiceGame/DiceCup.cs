@@ -7,8 +7,7 @@ namespace DiceGameArray
 {
     class DiceCup
     {
-        Die[] terninger = new Die[5];
-
+      
         private Die die1;
         private Die die2;
         private Die die3;
