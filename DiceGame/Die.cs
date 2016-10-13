@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace DiceGame
+namespace DiceGameArray
 {
     // This class is supposed to represent a classic 6-sided die.
     class Die

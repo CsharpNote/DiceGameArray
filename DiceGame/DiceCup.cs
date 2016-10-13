@@ -3,47 +3,40 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DiceGame
+namespace DiceGameArray
 {
     class DiceCup
     {
-        private Die die1red;
+        Die[] terninger = new Die[5];
+
+        private Die die1;
         private Die die2;
-        private Die die1000;
+        private Die die3;
 
         public DiceCup()
         {
             // VERY IMPORTANT! When we have instance fields of a class type,
             // we MUST remember to create actual objects in the constructor,
             // that the instance fields can then point to.
-            die1red = new Die(10);
+            die1 = new Die(10);
             die2 = new Die(4);
-            die1000 = new Die(20);
+            die3 = new Die(20);
 
         }
+
+        public DiceCup(int [] terninger )
+        {
+
+        }
+
         /// <summary>
         /// Ruller alle terningerne i bægeret
         /// </summary>
         public void RollAllDiceInCup()
         {
-            //die1.RollDie();
-            //die2.RollDie();
-            RollTwoDice();
-            die1000.RollDie();
-        }
-
-        public void RollTwoDice()
-        {
-            die1red.RollDie();
+            die1.RollDie();
             die2.RollDie();
-        }
-        /// <summary>
-        /// ruller den røde terning
-        /// </summary>
-        public void RollRedDie()
-        {
-            die1red.RollDie();
-
+            die3.RollDie();
         }
 
 
@@ -54,7 +47,7 @@ namespace DiceGame
         /// <returns></returns>
          public int GetTotalValue()
         {
-            return die1red.GetValue() + die2.GetValue() + die1000.GetValue();
+            return die1.GetValue() + die2.GetValue() + die3.GetValue();
         }
 
         // You must create a method with the below header:
