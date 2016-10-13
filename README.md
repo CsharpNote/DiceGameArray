@@ -35,3 +35,7 @@ Brug et while loop til at programmet ikke stopper med mindre der trykkes q
 så det er muligt at kaste terningerne uden at skulle starte programmet forfra
 brug Console.Readline og int.Parse() til at læse værdien for tataturet. 
 
+Ekstra opgave:
+Vi skal nu bruge 100 6 sidede terninger
+vha. loop i constructoren instantier 100 terninge objekter
+ret til i de andre metoder så de kan håndterer 100 terninger
