@@ -23,10 +23,6 @@ namespace DiceGameArray
 
         }
 
-        public DiceCup(int [] terninger )
-        {
-
-        }
 
         /// <summary>
         /// Ruller alle terningerne i bægeret
